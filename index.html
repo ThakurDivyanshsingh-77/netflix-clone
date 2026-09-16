@@ -1,355 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Google Search Console Verification -->
-    <meta name="google-site-verification" content="fcBaGEiTSYxGF_G4XLkKa7EWQZg5ZpNwm28iqouV3zU" />
-
-    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
-
-    <link rel="icon" type="image/png" href="image.png">
+    <meta name="google-site-verification" content="fcBaGEiTSYxGF_G4XLkKa7EWQZg5ZpNwm28iqouV3zU">
+    <meta name="description" content="Streamora is an independent educational streaming-platform UI demonstration built for frontend development practice.">
+    <meta property="og:title" content="Streamora — Educational Streaming UI Demo">
+    <meta property="og:description" content="An independent educational streaming-platform UI demonstration built for frontend development practice.">
+    <title>Streamora — Educational Streaming UI Demo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <div class="main">
-
-        <nav>
-            <span>
-                <img width="53" src="assets/images/logo.svg" alt="">
-            </span>
-
-            <div>
-                <button class="btn">English</button>
-                <button class="btn btn-red-sm">Sign In</button>
+    <header class="hero" id="top">
+        <nav class="nav" aria-label="Main navigation">
+            <a class="wordmark" href="#top" aria-label="Streamora home">Streamora<span class="wordmark-mark">+</span></a>
+            <div class="nav-actions">
+                <a class="button button-quiet" href="#faq">English</a>
+                <a class="button button-accent" href="#demo">Demo Account</a>
             </div>
         </nav>
-
-        <div class="box">
-        </div>
-
-        <div class="hero">
-            <span>Enjoy big movies, hit series and more from ₹ 149.</span>
-            <span>Join today. Cancel anytime.</span>
-            <span>Ready to watch? Enter your email to create or restart your membership.</span>
-
-            <div class="hero-buttons">
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started &gt;</button>
+        <div class="hero-content">
+            <p class="eyebrow">Streamora — Educational UI Demo</p>
+            <h1>Stories worth staying up for.</h1>
+            <p class="hero-copy">Explore a beautifully designed streaming experience built as an educational frontend project.</p>
+            <div class="hero-actions">
+                <a class="button button-accent button-large" href="#features">Explore Library <span aria-hidden="true">→</span></a>
+                <a class="button button-outline button-large" href="#showcase">View Demo</a>
             </div>
+            <p class="demo-note">Demo only — no information is submitted.</p>
         </div>
-
-        <div class="separation"></div>
-
-    </div>
-
-
-    <section class="first">
-
-        <div>
-            <span>Enjoy on your TV</span>
-
-            <span>
-                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-                Blu-ray players and more.
-            </span>
-        </div>
-
-        <div class="secImg">
-
-            <img
-                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                alt=""
-            >
-
-            <video
-                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
-                autoplay
-                loop
-                muted
-            ></video>
-
-        </div>
-
-    </section>
-
-
-    <div class="separation"></div>
-
-
-    <section class="first second">
-
-        <div class="secImg">
-
-            <img
-                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
-                alt=""
-            >
-
-        </div>
-
-        <div>
-            <span>Download your shows to watch offline</span>
-
-            <span>
-                Save your favourites easily and always have something to watch.
-            </span>
-        </div>
-
-    </section>
-
-
-    <div class="separation"></div>
-
-
-    <section class="first third">
-
-        <div>
-            <span>Watch everywhere</span>
-
-            <span>
-                Stream unlimited movies and TV shows on your phone, tablet,
-                laptop, and TV.
-            </span>
-        </div>
-
-        <div class="secImg">
-
-            <img
-                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                alt=""
-            >
-
-            <video
-                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
-                autoplay
-                loop
-                muted
-            ></video>
-
-        </div>
-
-    </section>
-
-
-    <div class="separation"></div>
-
-
-    <section class="first second">
-
-        <div class="secImg">
-
-            <img
-                src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54"
-                alt=""
-            >
-
-        </div>
-
-        <div>
-            <span>Create profiles for kids</span>
-
-            <span>
-                Send children on adventures with their favourite characters in a
-                space made just for them—free with your membership.
-            </span>
-        </div>
-
-    </section>
-
-
-    <div class="separation"></div>
-
-
-    <section class="faq">
-
-        <h2>Frequently Asked Questions</h2>
-
-
-        <div class="faqbox">
-
-            <span>What is NetFlix</span>
-
-            <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M12 4V20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-
-                <path
-                    d="M4 12H20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-            </svg>
-
-        </div>
-
-
-        <div class="faqbox">
-
-            <span>How much does Netflix cost?</span>
-
-            <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M12 4V20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-
-                <path
-                    d="M4 12H20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-            </svg>
-
-        </div>
-
-
-        <div class="faqbox">
-
-            <span>What can I watch on Netflix?</span>
-
-            <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M12 4V20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-
-                <path
-                    d="M4 12H20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-            </svg>
-
-        </div>
-
-
-        <div class="faqbox">
-
-            <span>Where can I watch?</span>
-
-            <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M12 4V20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-
-                <path
-                    d="M4 12H20"
-                    stroke="#141B34"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                />
-            </svg>
-
-        </div>
-
-    </section>
-
-
-    <div class="separation"></div>
-
-
-    <footer>
-
-        <div class="questions">
-            Questions? Call 000-800-919-1694
-        </div>
-
-        <div class="footer">
-
-            <div class="footer-item">
-
-                <a href="faq">Investor Relations</a>
-                <a href="faq">Jobs</a>
-                <a href="faq">Ways to Watch</a>
-                <a href="faq">Terms of Use</a>
-
-            </div>
-
-
-            <div class="footer-item">
-
-                <a href="faq">Help Centre</a>
-                <a href="faq">Account</a>
-                <a href="faq">Speed Test</a>
-                <a href="faq">Legal Notices</a>
-
-            </div>
-
-
-            <div class="footer-item">
-
-                <a href="faq">Media Centre</a>
-                <a href="faq">Privacy</a>
-                <a href="faq">Cookie Preferences</a>
-                <a href="faq">Corporate</a>
-
-            </div>
-
-
-            <div class="footer-item">
-
-                <a href="faq">Contact Us</a>
-                <a href="faq">Speed Test</a>
-                <a href="faq">Legal Notices</a>
-                <a href="faq">Only on Netflix</a>
-
-            </div>
-
-        </div>
-
-    </footer>
-
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div>
+    </header>
+    <main>
+        <section class="feature-section" id="features">
+            <div class="feature-copy"><p class="eyebrow">A calmer way to browse</p><h2>Watch across your favorite screens</h2><p>Move from a quiet morning on your tablet to a big-screen evening without losing your place. This concept keeps the experience clear, responsive, and easy to explore.</p></div>
+            <div class="screen-art" aria-label="Illustration of the Streamora library on multiple screens" role="img"><div class="screen screen-wide"><span>FEATURED</span><strong>After the Rain</strong></div><div class="screen screen-small"><span>CONTINUE</span><strong>+ 12 stories</strong></div></div>
+        </section>
+        <section class="feature-section feature-reverse" id="showcase">
+            <div class="feature-copy"><p class="eyebrow">Your next favorite, organized</p><h2>Keep your watchlist organized</h2><p>Collect promising stories, sort your ideas by mood, and return to them whenever inspiration strikes. No account or personal details are needed for this demo.</p></div>
+            <div class="playlist-art" aria-label="Illustration of a Streamora watchlist" role="img"><div class="playlist-heading"><span>MY LIST</span><strong>Tonight's rhythm</strong></div><div class="playlist-row"><i class="poster poster-coral"></i><span>Small Hours</span><b>01</b></div><div class="playlist-row"><i class="poster poster-cyan"></i><span>Field Notes</span><b>02</b></div><div class="playlist-row"><i class="poster poster-gold"></i><span>Northbound</span><b>03</b></div></div>
+        </section>
+        <section class="feature-section" id="demo">
+            <div class="feature-copy"><p class="eyebrow">A collection with character</p><h2>Find something for every mood</h2><p>Browse thoughtful categories, from slow-burn mysteries to bright weekend comedies. Streamora is a fictional product concept made to demonstrate polished interface design.</p></div>
+            <div class="mood-art" aria-label="Illustration of Streamora mood categories" role="img"><span class="mood mood-sun">SUNLIT</span><span class="mood mood-night">AFTER DARK</span><span class="mood mood-wave">SLOW CURRENT</span><span class="mood mood-leaf">NEW LEAVES</span></div>
+        </section>
+        <section class="feature-section feature-reverse">
+            <div class="feature-copy"><p class="eyebrow">Designed for everyone</p><h2>Create a space for every viewer</h2><p>Give each person a distinct visual space for their picks and preferences. In this educational demo, profiles are a visual interaction only and are never stored.</p></div>
+            <div class="profile-art" aria-label="Illustration of Streamora viewer profiles" role="img"><div class="profile profile-main"><span>SOLO</span></div><div class="profile profile-alt"><span>DUO</span></div><div class="profile profile-kid"><span>MINI</span></div></div>
+        </section>
+        <section class="faq" id="faq"><div class="section-heading"><p class="eyebrow">Good questions</p><h2>About this demo</h2></div>
+            <details><summary>What is Streamora?</summary><p>Streamora is an independent educational frontend demonstration that explores the design of a fictional streaming platform.</p></details>
+            <details><summary>Is Streamora a real streaming service?</summary><p>No. It is a static UI concept for learning and portfolio presentation. It does not provide a catalog or playback service.</p></details>
+            <details><summary>Can I create an account?</summary><p>No account is created. The Demo Account control simply points to the demo area and does not start authentication.</p></details>
+            <details><summary>Does this demo collect personal information?</summary><p>No. There are no credential, payment, contact, or tracking forms. The page does not submit information.</p></details>
+            <details><summary>Is this project affiliated with any streaming provider?</summary><p>Streamora is an independent educational frontend demonstration. It is not affiliated with or endorsed by Netflix or another streaming provider.</p></details>
+            <details><summary>What technologies were used to build it?</summary><p>This static experience uses semantic HTML and responsive CSS, with CSS illustrations replacing external media.</p></details>
+        </section>
+    </main>
+    <footer><div class="footer-top"><div><a class="wordmark" href="#top">Streamora<span class="wordmark-mark">+</span></a><p>Questions? Explore the demo or view the project documentation.</p></div><div class="footer-links"><div><strong>Project</strong><a href="#demo">About Demo</a><a href="#features">Features</a><a href="#showcase">UI Showcase</a><a href="#faq">Documentation</a></div><div><strong>Resources</strong><a href="#faq">Project Details</a><a href="#faq">Technologies</a><a href="#faq">Credits</a><a href="https://github.com/" rel="noopener noreferrer">GitHub</a></div><div><strong>Information</strong><a href="#faq">Educational Demo</a><a href="#faq">Privacy Notice</a><a href="#faq">Disclaimer</a></div></div></div><p class="disclaimer">This website is an independent educational UI demonstration and is not affiliated with or endorsed by any streaming service.</p><p class="copyright">© 2026 Streamora concept. Built for frontend practice.</p></footer>
 </body>
-
 </html>
